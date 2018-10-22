@@ -10,6 +10,7 @@ using System.Text;
 using Gizmox.WebGUI.Common;
 using Gizmox.WebGUI.Forms;
 using DLTLib.Classes;
+using DLTVWGPT.Datasets;
 
 #endregion
 

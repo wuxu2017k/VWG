@@ -16,7 +16,7 @@ using DLTLib.Classes;
 
 namespace DLTVWGPT.XTGL
 {
-    public partial class FrmMKGL : Form
+    public partial class FrmMKGL : UserControl
     {
         public FrmMKGL()
         {

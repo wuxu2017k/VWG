@@ -102,7 +102,7 @@
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="XTGL\FrmMKGL.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="XTGL\FrmMKGL.Designer.cs">
       <DependentUpon>FrmMKGL.cs</DependentUpon>

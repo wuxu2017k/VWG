@@ -11,7 +11,8 @@ using Gizmox.WebGUI.Common;
 using Gizmox.WebGUI.Forms;
 using DLTLib.Classes;
 using DLTVWGPT.Classes;
-
+using System.Reflection;
+using System.Text.RegularExpressions;
 #endregion
 
 namespace DLTVWGPT
@@ -38,7 +39,7 @@ namespace DLTVWGPT
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            ClsFuncsA funcs = new ClsFuncsA();
+            ClsFuncsA funcs = new ClsFuncsA(tpMain);
             funcsTree.Prepare(funcs);
         }
 
